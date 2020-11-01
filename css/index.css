@@ -1,0 +1,8 @@
+:root {
+    scroll-behavior: smooth;
+}
+
+#carouselTours div img {
+    max-width: 600px;
+    margin: auto;
+}
