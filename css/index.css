@@ -6,3 +6,15 @@
     max-width: 600px;
     margin: auto;
 }
+
+.bg-dark {
+    background-color: rgba(35, 7, 158, 0.432)!important;
+}
+
+.navbar-dark .navbar-brand {
+    color: rgb(97, 67, 167);
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: rgb(21, 199, 30);
+}
