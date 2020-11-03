@@ -6,12 +6,43 @@
   background-image: url(img/pngnaturecut.png);
   background-size: 100%; 
   font-size: 18px;
-  font-family: 'Syne Mono', monospace;
+  font-family:'Syne Mono', monospace;
   text-align: center;
 }
 
 .bg-light {
     background-color: #765bc045!important;
+}
+
+.bg-dark {
+    background-color: rgba(35, 7, 158, 0.432)!important;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    color: rgb(30, 150, 6);
+}
+
+h2 {
+  text-align: center;
+  font-size: 35px;
+  color: rgb(230, 82, 210);
+  margin: 30px 0 30px 0;
+}
+
+h3 {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(38, 146, 11);
+  margin: 30px 0 30px 0;
+}
+
+.aboutUs {
+  display: flex;
+  text-align: center;
+  font-size: 20px;
+  padding: 15px 25px 5px 25px; 
 }
 
 .card {
@@ -22,69 +53,40 @@
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color: rgb(75, 24, 194);
+    background-color: rgb(110, 55, 238);
     background-clip: border-box;
     border: 1px solid #0a0335;
-    border-radius: 7rem;
+    padding: 10px 10px 10px 10px;
 }
 
-h2 {
-  text-align: center;
-  font-size: 20px;
-  color: rgb(230, 82, 210);
-  margin: 30px 0 30px 0;
+.card-title {
+color: #033b1a;
 }
 
-h3 {
-  text-align: center;
-  font-size: 20px;
-  color: rgb(230, 82, 210);
-  margin: 30px 0 30px 0;
-}
+.card-text {
+    color: rgb(123, 233, 224);
+  }
 
-h5 {
-  text-align: center;
-  font-size: 10px;
-  color: rgb(2, 58, 16);
-  margin: 30px 0 30px 0;
-}
-
-#aboutUS {
-  display: flex;
-  text-align: center;
-  font-size: 20px;
-  padding: 15px 25px 5px 25px;
-  padding: 20px 25px;
-}
-
-h1 {
-    text-align: center;
-    font-size: 35px;
-  color: rgb(160, 8, 190);
-}
-
-
-#carouselTours div img {
-    max-width: 600px;
-    margin: auto;
-}
-
-.bg-dark {
-    background-color: rgba(35, 7, 158, 0.432)!important;
-}
-
-.navbar-dark .navbar-brand {
-    color: rgb(97, 67, 167);
+.btn-primary {
+    background-color: rgb(119, 118, 204);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
 }
 
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, 
 .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
-    color: rgb(233, 14, 160);
+    color: hsl(221, 70%, 56%);
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: rgba(160, 102, 160, 0.5);
+    color: hsl(182, 84%, 64%);
 }
+
+
 
 form {
 	margin: 0 auto;
@@ -111,4 +113,4 @@ button {
   border-radius: 6px;
   cursor: pointer;
   font-size: 20px;      	
-			}
+	}
