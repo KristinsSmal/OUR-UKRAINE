@@ -2,6 +2,68 @@
     scroll-behavior: smooth;
 }
 
+.background-image {
+  background-image: url(img/pngnaturecut.png);
+  background-size: 100%; 
+  font-size: 18px;
+  font-family: 'Syne Mono', monospace;
+  text-align: center;
+}
+
+.bg-light {
+    background-color: #765bc045!important;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: rgb(75, 24, 194);
+    background-clip: border-box;
+    border: 1px solid #0a0335;
+    border-radius: 7rem;
+}
+
+h2 {
+  text-align: center;
+  font-size: 20px;
+  color: rgb(230, 82, 210);
+  margin: 30px 0 30px 0;
+}
+
+h3 {
+  text-align: center;
+  font-size: 20px;
+  color: rgb(230, 82, 210);
+  margin: 30px 0 30px 0;
+}
+
+h5 {
+  text-align: center;
+  font-size: 10px;
+  color: rgb(2, 58, 16);
+  margin: 30px 0 30px 0;
+}
+
+#aboutUS {
+  display: flex;
+  text-align: center;
+  font-size: 20px;
+  padding: 15px 25px 5px 25px;
+  padding: 20px 25px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+  color: rgb(160, 8, 190);
+}
+
+
 #carouselTours div img {
     max-width: 600px;
     margin: auto;
@@ -15,6 +77,38 @@
     color: rgb(97, 67, 167);
 }
 
-.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
-    color: rgb(21, 199, 30);
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, 
+.navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: rgb(233, 14, 160);
 }
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(160, 102, 160, 0.5);
+}
+
+form {
+	margin: 0 auto;
+	width: 350px;
+	padding: 1em;
+	border: 1px solid #ccc;
+	border-radius: 1em;
+	}
+		
+	input,textarea {
+		font: 1em sans-serif;
+		width: 300px;
+		box-sizing: border-box; 
+		border: 1px solid rgb(91, 207, 223);
+        border-radius: 6px;
+        vertical-align: top;
+	    height: 3em;
+	}
+
+button {
+  color: rgb(44, 8, 129);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 20px;      	
+			}
